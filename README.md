@@ -39,3 +39,21 @@ sudosystemctl enable mongod
 sudo systemctl status mongod
 ```
 
+![Screenshot 2023-07-22 100229](https://github.com/opeyemiogungbe/Pbl_project4/assets/136735745/378468b4-4f3b-4547-aa78-2a87dd543efa)
+
+Next i'll Install body-parser package (body-parser’ package is needed to help process JSON files passed in requests to the server).
+```
+sudo npm install body-parser
+```
+Next i'll reate a folder named Books and go into the book directory 
+```
+mkdir Books && cd Books
+```
+In the Books directory, i'll be starting my npm project and add a file to it named server.js 
+```
+npm init
+touch server.js
+```
+Vi into server.js and put in the necessary code in it.
+
+
