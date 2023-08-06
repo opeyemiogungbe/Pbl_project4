@@ -73,3 +73,38 @@ i'll create a file named routes.js in the app folder and vi into it and paste in
 ```
 vi routes.js
 ```
+![Screenshot 2023-07-22 101553](https://github.com/opeyemiogungbe/Pbl_project4/assets/136735745/6f9e178c-bdf7-4f7b-9113-89c93e81e80b)
+
+In the apps folder, i'll be creating another folder named models and change directory into it
+```
+mkdir models && cd models
+```
+I'll create a file named book.js, vi into it and put in all the necessary code
+
+`vi book.js`
+
+```
+var mongoose = require('mongoose');
+var dbHost = 'mongodb://localhost:27017/test';
+mongoose.connect(dbHost);
+mongoose.connection;
+mongoose.set('debug', true);
+var bookSchema = mongoose.Schema( {
+  name: String,
+  isbn: {type: String, index: true},
+  author: String,
+  pages: Number
+});
+var Book = mongoose.model('Book', bookSchema);
+module.exports = mongoose.model('Book', bookSchema);
+```
+### Step 4 – Access the routes with AngularJS
+AngularJS provides a web framework for creating dynamic views in web applications. i'll be using AngularJS to connect my web page with Express and perform actions on my book register.
+
+I'll be changing the directory back to Books, create a folder name public and change directory into it
+```
+cd ../..
+mkdir public && cd public
+```
+I'll add a file named script.js and vi into it
+`Vi script.js`
