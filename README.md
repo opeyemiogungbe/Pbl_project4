@@ -54,6 +54,8 @@ In the Books directory, i'll be starting my npm project and add a file to it nam
 npm init
 touch server.js
 ```
-Vi into server.js and put in the necessary code in it.
+![Screenshot 2023-07-22 100725](https://github.com/opeyemiogungbe/Pbl_project4/assets/136735745/18779eec-249c-44b0-bc8b-0ba41c6d626a)
 
+
+Vi into server.js and put in the necessary code in it.
 
