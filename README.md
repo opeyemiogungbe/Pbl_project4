@@ -49,13 +49,27 @@ Next i'll reate a folder named Books and go into the book directory
 ```
 mkdir Books && cd Books
 ```
-In the Books directory, i'll be starting my npm project and add a file to it named server.js 
+In the Books directory, i'll be starting my npm project.
 ```
 npm init
-touch server.js
 ```
 ![Screenshot 2023-07-22 100725](https://github.com/opeyemiogungbe/Pbl_project4/assets/136735745/18779eec-249c-44b0-bc8b-0ba41c6d626a)
 
 
-Vi into server.js and put in the necessary code in it.
+i'll be adding a file named server.js and Vi into ito it to put in the necessary code.
 
+![Screenshot 2023-07-22 101340](https://github.com/opeyemiogungbe/Pbl_project4/assets/136735745/40561135-c7d6-4ddd-abfc-66a89d646543)
+
+### Step 3: Installing Express and set up routes to the serve
+Express is a flexible Node.js web application framework that provides features for web and mobile applications. i will use Express in to pass book information to and from MongoDB database. i will use mongoose to establish a schema for the database to store data of my book register.
+```
+sudo npm install express mongoose
+```
+In books folder, i'll create a folder named apps and change directory into it:
+```
+mkdir apps && cd apps
+```
+i'll create a file named routes.js in the app folder and vi into it and paste in the necessary code in it.
+```
+vi routes.js
+```
