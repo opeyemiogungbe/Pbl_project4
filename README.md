@@ -108,3 +108,9 @@ mkdir public && cd public
 ```
 I'll add a file named script.js and vi into it
 `Vi script.js`
+
+![Screenshot 2023-07-22 102119](https://github.com/opeyemiogungbe/Pbl_project4/assets/136735745/6aa3fd29-b6fe-4113-99c3-58cec40ffcfe)
+
+In public folder also i'll create a file named index.html, vi into it and paste the necessary code.
+`Vi index.html`
+
