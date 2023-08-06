@@ -112,5 +112,16 @@ I'll add a file named script.js and vi into it
 ![Screenshot 2023-07-22 102119](https://github.com/opeyemiogungbe/Pbl_project4/assets/136735745/6aa3fd29-b6fe-4113-99c3-58cec40ffcfe)
 
 In public folder also i'll create a file named index.html, vi into it and paste the necessary code.
+
 `Vi index.html`
+
+![Screenshot 2023-07-22 102333](https://github.com/opeyemiogungbe/Pbl_project4/assets/136735745/f661a76d-7fb5-42ba-9e35-f207c4673eaf)
+
+i'll change the directory back up to Books start the server by running this command:
+```
+cd ..
+node server.js
+```
+Now that our server is up and running, i'll open up the tcp port 3300 on AWS Web Console for EC2 Instance. I'll access my Book Register web application from the internet with a browser using Public IP address or Public DNS name.
+
 
