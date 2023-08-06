@@ -124,4 +124,3 @@ node server.js
 ```
 Now that our server is up and running, i'll open up the tcp port 3300 on AWS Web Console for EC2 Instance. I'll access my Book Register web application from the internet with a browser using Public IP address or Public DNS name.
 
-
